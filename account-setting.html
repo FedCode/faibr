@@ -1,0 +1,255 @@
+
+
+<!doctype html>
+<html class="body-overflow-none" lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Bootstrap CSS -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/chat.css" rel="stylesheet">
+	  <link href="css/mob-responsive.css" rel="stylesheet">
+      <link href="css/register-model.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bbbootstrap/libraries@main/choices.min.css">
+      <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,300;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <title>Chat Template</title>
+   </head>
+   <body class="body-overflow-none">
+         <header>
+         <nav class="navbar navbar-expand-md navbar-dark bg-blue">
+            <div class="container">
+               <a class="navbar-brand" href="#"><img src="images/fyber-logo.svg" alt=""></a>
+               <button class="navbar-toggler mobile-hidden-btn" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"><img src="images/menu-icon.svg"></span>
+               <span class="navbar-close-icon"><img src="images/close-icon.svg"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav ml-auto list-border">
+                      <li class="nav-item">
+                        <a class="nav-link" href="help.html">
+                           <svg width="14" height="22" viewBox="0 0 14 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M7 18.5833C7.897 18.5833 8.625 19.3113 8.625 20.2083C8.625 21.1053 7.897 21.8333 7 21.8333C6.103 21.8333 5.375 21.1053 5.375 20.2083C5.375 19.3113 6.103 18.5833 7 18.5833ZM7 0.166656C10.5902 0.166656 13.5 3.07649 13.5 6.66666C13.5 9.01207 12.6843 10.2308 10.6032 11.9999C8.51558 13.7733 8.08333 14.5717 8.08333 16.4167H5.91667C5.91667 13.7365 6.76925 12.4137 9.20025 10.3489C10.8437 8.95249 11.3333 8.22016 11.3333 6.66666C11.3333 4.27249 9.39417 2.33332 7 2.33332C4.60583 2.33332 2.66667 4.27249 2.66667 6.66666V7.74999H0.5V6.66666C0.5 3.07649 3.40983 0.166656 7 0.166656Z" fill="white"></path>
+                           </svg><br>
+						   <span class="menu-text">Tuki</span>
+						   
+                        </a>
+                     </li>
+					 <li class="notification-pdrop" tabindex="1">
+						  <a class="nav-link" href="company-notification.html">
+						     <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+										 <path class="path-act" d="M17.0625 6.5625C17.0625 2.93869 14.1238 0 10.5 0C6.87619 0 3.9375 2.93869 3.9375 6.5625V13.125L0 15.75V17.0625H21V15.75L17.0625 13.125V6.5625Z" fill="#fff"></path>
+										 <path d="M13.125 18.375H7.875C7.875 19.8253 9.04969 21 10.5 21C11.9503 21 13.125 19.8253 13.125 18.375Z" fill="#fff" fill-opacity="1"></path>
+							  </svg><br>
+                            <span class="notification-sign"></span>
+						     <span class="menu-text">Ilmoitukset</span>
+						  </a>
+						
+						
+                     </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-after" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           <div class="avatar header-avtar">
+                              <img src="images/pf-img.png" alt="">
+                           </div>
+                        </a>
+                        <div class="dropdown-menu header-dropdown" aria-labelledby="navbarDropdownMenuLink">
+                           <ul>
+                              <li>
+                                 <a class="dropdown-item" href="#">
+                                    <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M9.57832 0.939753C9.73022 0.787863 9.91054 0.667377 10.109 0.585174C10.3074 0.502972 10.5201 0.460663 10.735 0.460663C10.9498 0.460663 11.1625 0.502972 11.3609 0.585174C11.5594 0.667377 11.7397 0.787863 11.8916 0.939753C12.0435 1.09164 12.164 1.27196 12.2462 1.47042C12.3284 1.66887 12.3707 1.88157 12.3707 2.09638C12.3707 2.31119 12.3284 2.52389 12.2462 2.72234C12.164 2.9208 12.0435 3.10112 11.8916 3.25301L4.08435 11.0602L0.903625 11.9277L1.7711 8.74698L9.57832 0.939753Z" stroke="#2A8BF2" stroke-width="0.86747" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    Edit profile
+                                 </a>
+                              </li>
+                              <li>
+                                 <a class="dropdown-item" href="#">
+                                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                       <path d="M13.4338 0.421631H5.28192V12.7834H13.4338V0.421631Z" stroke="black" stroke-width="0.650602" stroke-miterlimit="6.2" stroke-linecap="round" stroke-linejoin="round"/>
+                                       <path d="M10.3538 6.60236H1.07703" stroke="black" stroke-width="0.650602" stroke-linecap="round" stroke-linejoin="round"/>
+                                       <path d="M1.07703 6.60236L3.80923 9.27569" stroke="black" stroke-width="0.650602" stroke-linecap="round" stroke-linejoin="round"/>
+                                       <path d="M1.07703 6.60231L3.80923 3.92899" stroke="black" stroke-width="0.650602" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                    Logout
+                                 </a>
+                              </li>
+                           </ul>
+                        </div>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+      </header>
+      <div class="main-layout-chart">
+      <div class="setting-detail-page prmotion-page">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12" id="main">
+                  <div class="back-to-page">
+                     <h3>
+                        <a href="profile-setting.html">
+                           <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <path d="M11.5 22.3298C5.51873 22.3298 0.670288 17.4813 0.670288 11.5001C0.670288 5.51885 5.51873 0.67041 11.5 0.67041C17.4812 0.67041 22.3297 5.51885 22.3297 11.5001C22.3297 17.4813 17.4812 22.3298 11.5 22.3298ZM11.5 1.84854C6.19841 1.84854 1.84841 6.19853 1.84841 11.5001C1.84841 16.8017 6.19841 21.1517 11.5 21.1517C16.8015 21.1517 21.1515 16.8017 21.1515 11.5001C21.1515 6.19853 16.8015 1.84854 11.5 1.84854Z" fill="#0D1C2E"/>
+                              <path d="M11.7266 17.7079L5.51874 11.5001L11.7266 5.29224L12.5422 6.15318L7.24061 11.5001L12.5422 16.8469L11.7266 17.7079Z" fill="#0D1C2E"/>
+                              <path d="M6.37964 10.8657H17.2546V12.1345H6.37964V10.8657Z" fill="#0D1C2E"/>
+                           </svg>
+                        </a>
+                        Sisaankirjautumistiedot
+                     </h3>
+                  </div>
+                  <form class="job-prefrence account-setting-from form-row">
+                     
+					 <div class="col-md-6 form-group">
+                        <label class="control-label form-label" for="email">Sähköposti</label>
+                        <input type="text" class="form-control field-style" name="email" id="email" placeholder="john@gmail.com">
+                     </div>
+					  <div class="form-group col-md-6">
+					  <label class="control-label form-label" for="email">Salasana</label>
+                        <input id="password-field" type="password" class="field-style" name="password" value="secret">
+                        <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+                     </div>
+					  
+					 
+                     <div class="col-md-12 text-center equal-margin">
+                        <button type="button" class="save-btn">Tallenna</button>
+                     </div>
+                  </form>
+               </div>
+            </div>
+         </div>
+         <div class="page-bottom-area">
+            <img src="images/page-hand-vector.svg">
+         </div>
+      </div>
+      
+	    <div class="mobile-bottom-pannel employee-edit-mobile">
+   <ul class="mobile-pannel-list">
+      <li class="nav-item">
+         <a class="nav-link active" href="company-dashboard.html">
+            <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+			<mask id="mask0_1585_6008" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="33" height="33">
+			<circle cx="16.5" cy="16.5" r="16.5" fill="#3E0E0E"/>
+			</mask>
+			<g mask="url(#mask0_1585_6008)">
+			<ellipse cx="16.923" cy="17.1986" rx="16.641" ry="15.855" fill="#E6E1DB"/>
+			<ellipse cx="16.9791" cy="16.6513" rx="8.91282" ry="8.58979" fill="#14A800" fill-opacity="0.7"/>
+			<path d="M31.4763 29.7887C31.4763 33.3617 25.1245 36.2582 17.2891 36.2582C9.45376 36.2582 2.53785 33.8933 2.53784 30.2508C2.53783 26.6083 8.79938 21.4979 16.9789 21.4979C24.8142 21.4979 31.4763 26.2157 31.4763 29.7887Z" fill="#14A800" fill-opacity="0.4"/>
+			</g>
+           </svg>
+
+			
+            <span class="menu-text">Oma profiili</span>
+         </a>
+      </li>
+      <li class="nav-item">
+         <a class="nav-link" href="#">
+          <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M14.5 22.9583C15.5005 22.9583 16.3125 23.7703 16.3125 24.7708C16.3125 25.7713 15.5005 26.5833 14.5 26.5833C13.4995 26.5833 12.6875 25.7713 12.6875 24.7708C12.6875 23.7703 13.4995 22.9583 14.5 22.9583ZM14.5 2.41663C18.5044 2.41663 21.75 5.66221 21.75 9.66663C21.75 12.2827 20.8401 13.642 18.5189 15.6153C16.1905 17.5933 15.7083 18.4838 15.7083 20.5416H13.2917C13.2917 17.5522 14.2426 16.0768 16.9541 13.7738C18.7872 12.2162 19.3333 11.3994 19.3333 9.66663C19.3333 6.99621 17.1704 4.83329 14.5 4.83329C11.8296 4.83329 9.66667 6.99621 9.66667 9.66663V10.875H7.25V9.66663C7.25 5.66221 10.4956 2.41663 14.5 2.41663Z" fill="#808080"/>
+</svg>
+<span class="menu-text">Tuki</span>
+         </a>
+      </li>
+      <li class="nav-item">
+         <a class="nav-link " href="company-message-page.html">
+            <svg width="25" height="21" viewBox="0 0 25 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+               <path d="M23.5943 12.4702C23.4149 12.201 23.1458 11.9319 22.7869 11.9319C22.4281 11.9319 22.1589 12.1113 21.9795 12.3804L21.8001 12.6496C21.5309 13.1879 21.0824 13.457 20.3647 13.5467V13.0981C20.275 12.2907 20.275 11.3936 20.0955 10.5862C19.9161 9.50962 19.3778 8.43307 18.391 7.35651C18.1218 6.99766 17.5836 6.99766 17.2247 7.2668C17.0453 7.35651 16.8659 7.53594 16.8659 7.71536C16.507 8.70221 15.879 9.50962 15.1613 10.4068L14.8922 10.6759C13.8156 12.1113 13.2773 13.8158 13.2773 15.5204C13.3671 18.1221 15.879 20.4546 18.5704 20.4546C21.1721 20.4546 23.3252 18.6604 23.8635 16.2381C24.4018 15.1615 24.2223 13.6364 23.5943 12.4702Z" fill="#FAAE3B"/>
+               <path class="active-path"  d="M11.6627 15.7895C11.573 14.0849 12.0215 12.4701 12.829 10.945L12.2907 11.4833C12.1113 11.573 11.8421 11.6627 11.6627 11.6627C11.4833 11.6627 11.2141 11.573 11.0347 11.4833L9.59929 10.2273L5.02393 14.1747C4.93422 14.2644 4.66508 14.3541 4.48565 14.3541C4.21651 14.3541 3.94737 14.2644 3.76795 14.0849C3.40909 13.7261 3.49881 13.1878 3.85766 12.829L8.2536 9.06102L3.85766 5.29307C3.49881 4.93422 3.40909 4.39594 3.76795 4.03709C4.1268 3.67823 4.66508 3.58852 5.02393 3.94737L11.573 9.689L18.122 3.94737C18.4809 3.58852 19.0192 3.67823 19.378 4.03709C19.7369 4.39594 19.6472 4.93422 19.2883 5.29307L18.75 5.74163C19.1089 5.92106 19.378 6.10049 19.6472 6.36962C20.8134 7.62561 21.5311 8.9713 21.8003 10.4067C22.0694 10.317 22.4283 10.2273 22.7871 10.2273C22.9665 10.2273 23.0562 10.2273 23.2357 10.317V2.69139C23.2357 1.16627 22.0694 0 20.5443 0H2.69139C1.16627 0 0 1.16627 0 2.69139V15.2512C0 16.7763 1.16627 17.9426 2.69139 17.9426H12.1113C11.8421 17.2249 11.6627 16.5072 11.6627 15.7895Z" fill="#808080"/>
+            </svg>
+			<span class="notification-sign"></span> 
+            <span class="menu-text">Saapuneet</span>
+         </a>
+      </li>
+      <li class="nav-item" >
+         <a href="">
+            <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M17.0625 6.5625C17.0625 2.93869 14.1238 0 10.5 0C6.87619 0 3.9375 2.93869 3.9375 6.5625V13.125L0 15.75V17.0625H21V15.75L17.0625 13.125V6.5625Z" fill="#808080"/>
+				<path d="M13.125 18.375H7.875C7.875 19.8253 9.04969 21 10.5 21C11.9503 21 13.125 19.8253 13.125 18.375Z" fill="black" fill-opacity="0.5"/>
+				</svg>
+              <span class="notification-sign"></span> 
+			  <span class="menu-text">Ilmoitukset</span>
+         </a>
+      
+      </li>
+	   <li class="nav-item" >
+         <a href="">
+		  <svg width="21" height="22" viewBox="0 0 21 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.31579 17.6H5.52632V19.8H18.7895V2.2H5.52632V4.4H3.31579V1.1C3.31579 0.808262 3.43224 0.528473 3.63951 0.322182C3.84679 0.115892 4.12792 0 4.42105 0H19.8947C20.1879 0 20.469 0.115892 20.6763 0.322182C20.8836 0.528473 21 0.808262 21 1.1V20.9C21 21.1917 20.8836 21.4715 20.6763 21.6778C20.469 21.8841 20.1879 22 19.8947 22H4.42105C4.12792 22 3.84679 21.8841 3.63951 21.6778C3.43224 21.4715 3.31579 21.1917 3.31579 20.9V17.6ZM5.52632 9.9H13.2632V12.1H5.52632V15.4L0 11L5.52632 6.6V9.9Z" fill="#808080"/>
+</svg>
+	
+              
+			  <span class="menu-text">Kirjaudu ulos</span>
+         </a>
+      
+      </li>
+   
+	
+
+
+      
+   </ul>
+</div>
+	  
+	  
+	  <footer class="d-none d-sm-none d-md-block">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="detail-list">
+                     <p>Seuraa meitä somessa:</p>
+                     <ul class="footer-list">
+                        <li>
+                           <a href="">
+                              <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M22 11C22 4.92486 17.0751 0 11 0C4.92486 0 0 4.92486 0 11C0 16.4904 4.02256 21.0412 9.28125 21.8664V14.1797H6.48828V11H9.28125V8.57656C9.28125 5.81969 10.9235 4.29688 13.4361 4.29688C14.6396 4.29688 15.8984 4.51172 15.8984 4.51172V7.21875H14.5114C13.1449 7.21875 12.7188 8.06665 12.7188 8.93655V11H15.7695L15.2818 14.1797H12.7188V21.8664C17.9775 21.0412 22 16.4904 22 11Z" fill="white"/>
+                              </svg>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="">
+                              <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0C17.0711 0 22 4.92895 22 11C22 17.0711 17.0711 22 11 22C4.92895 22 0 17.0711 0 11C0 4.92895 4.92895 0 11 0ZM9.0625 16.8505C13.9301 16.8505 16.5917 12.8171 16.5917 9.32143C16.5917 9.20618 16.5917 9.09094 16.5862 8.98116C17.102 8.60802 17.552 8.14155 17.9087 7.60925C17.4368 7.81778 16.9264 7.96048 16.3886 8.02631C16.9374 7.69704 17.3544 7.1812 17.552 6.56111C17.0416 6.86293 16.4764 7.08241 15.8727 7.20315C15.3898 6.68731 14.7039 6.36904 13.9411 6.36904C12.4813 6.36904 11.296 7.55438 11.296 9.01411C11.296 9.22264 11.318 9.42567 11.3673 9.61774C9.16678 9.508 7.21862 8.45436 5.91259 6.85193C5.68756 7.24157 5.55586 7.69703 5.55586 8.17996C5.55586 9.0964 6.02233 9.90859 6.73574 10.3805C6.30218 10.3696 5.89609 10.2488 5.5394 10.0513V10.0842C5.5394 11.3683 6.45034 12.4329 7.66313 12.6799C7.44365 12.7402 7.20766 12.7732 6.96622 12.7732C6.79607 12.7732 6.63145 12.7567 6.46684 12.7238C6.80157 13.7774 7.77838 14.5402 8.9363 14.5622C8.03082 15.2701 6.88939 15.6927 5.64914 15.6927C5.43512 15.6927 5.22659 15.6817 5.01806 15.6542C6.17598 16.4115 7.56985 16.8505 9.0625 16.8505Z" fill="white"/>
+                              </svg>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="">
+                              <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0C17.0711 0 22 4.92895 22 11C22 17.0711 17.0711 22 11 22C4.92895 22 0 17.0711 0 11C0 4.92895 4.92895 0 11 0ZM11 4.125C9.13288 4.125 8.89874 4.13291 8.16544 4.16638C7.43368 4.19977 6.93391 4.316 6.49657 4.48594C6.0445 4.66164 5.66109 4.89672 5.27888 5.27893C4.89668 5.66113 4.66159 6.04454 4.48589 6.49662C4.31595 6.93391 4.19977 7.43368 4.16634 8.16544C4.13291 8.89874 4.125 9.13288 4.125 11C4.125 12.8671 4.13291 13.1013 4.16634 13.8346C4.19977 14.5663 4.31595 15.0661 4.48589 15.5034C4.66159 15.9555 4.89668 16.3389 5.27888 16.7211C5.66109 17.1033 6.0445 17.3384 6.49657 17.5141C6.93391 17.684 7.43368 17.8002 8.16544 17.8336C8.89874 17.8671 9.13288 17.875 11 17.875C12.8671 17.875 13.1013 17.8671 13.8346 17.8336C14.5663 17.8002 15.0661 17.684 15.5034 17.5141C15.9555 17.3384 16.3389 17.1033 16.7211 16.7211C17.1033 16.3389 17.3384 15.9555 17.5141 15.5034C17.684 15.0661 17.8002 14.5663 17.8336 13.8346C17.8671 13.1013 17.875 12.8671 17.875 11C17.875 9.13288 17.8671 8.89874 17.8336 8.16544C17.8002 7.43368 17.684 6.93391 17.5141 6.49662C17.3384 6.04454 17.1033 5.66113 16.7211 5.27893C16.3389 4.89672 15.9555 4.66164 15.5034 4.48594C15.0661 4.316 14.5663 4.19977 13.8346 4.16638C13.1013 4.13291 12.8671 4.125 11 4.125ZM11 5.36375C12.8357 5.36375 13.0531 5.37075 13.7781 5.40384C14.4484 5.43443 14.8124 5.54641 15.0547 5.64055C15.3756 5.76525 15.6046 5.91426 15.8452 6.15484C16.0858 6.39538 16.2348 6.62445 16.3594 6.94534C16.4536 7.1876 16.5656 7.55159 16.5962 8.2219C16.6293 8.94687 16.6363 9.16429 16.6363 11C16.6363 12.8357 16.6293 13.0531 16.5962 13.7781C16.5656 14.4484 16.4536 14.8124 16.3594 15.0547C16.2348 15.3756 16.0858 15.6046 15.8452 15.8452C15.6046 16.0858 15.3756 16.2348 15.0547 16.3594C14.8124 16.4536 14.4484 16.5656 13.7781 16.5962C13.0533 16.6293 12.8358 16.6363 11 16.6363C9.16416 16.6363 8.94678 16.6293 8.2219 16.5962C7.55159 16.5656 7.1876 16.4536 6.94534 16.3594C6.62441 16.2348 6.39538 16.0858 6.1548 15.8452C5.91422 15.6046 5.76525 15.3756 5.64055 15.0547C5.54641 14.8124 5.43439 14.4484 5.40379 13.7781C5.37071 13.0531 5.36375 12.8357 5.36375 11C5.36375 9.16429 5.37071 8.94687 5.40379 8.2219C5.43439 7.55159 5.54641 7.1876 5.64055 6.94534C5.76525 6.62445 5.91422 6.39538 6.1548 6.15484C6.39538 5.91426 6.62441 5.76525 6.94534 5.64055C7.1876 5.54641 7.55159 5.43443 8.2219 5.40384C8.94687 5.37075 9.16429 5.36375 11 5.36375ZM11 7.4696C9.05021 7.4696 7.4696 9.05021 7.4696 11C7.4696 12.9498 9.05021 14.5304 11 14.5304C12.9498 14.5304 14.5304 12.9498 14.5304 11C14.5304 9.05021 12.9498 7.4696 11 7.4696V7.4696ZM11 13.2917C9.73436 13.2917 8.70835 12.2656 8.70835 11C8.70835 9.73436 9.73436 8.70835 11 8.70835C12.2656 8.70835 13.2917 9.73436 13.2917 11C13.2917 12.2656 12.2656 13.2917 11 13.2917V13.2917ZM15.4949 7.33012C15.4949 7.78577 15.1255 8.15508 14.6699 8.15508C14.2143 8.15508 13.8449 7.78577 13.8449 7.33012C13.8449 6.87448 14.2143 6.50512 14.6699 6.50512C15.1255 6.50512 15.4949 6.87448 15.4949 7.33012Z" fill="white"/>
+                              </svg>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="">
+                              <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0C17.0711 0 22 4.92895 22 11C22 17.0711 17.0711 22 11 22C4.92895 22 0 17.0711 0 11C0 4.92895 4.92895 0 11 0ZM7.56091 17.182V8.5916H4.70504V17.182H7.56091ZM17.8571 17.182V12.2558C17.8571 9.61709 16.4483 8.38961 14.5696 8.38961C13.0547 8.38961 12.3762 9.22273 11.9962 9.80787V8.5916H9.14109C9.17894 9.39757 9.14109 17.182 9.14109 17.182H11.9962V12.3845C11.9962 12.1277 12.0147 11.871 12.0903 11.6875C12.2964 11.1747 12.7665 10.6434 13.5554 10.6434C14.5881 10.6434 15.0018 11.4314 15.0018 12.5858V17.182H17.8571V17.182ZM6.15227 4.44941C5.17516 4.44941 4.53677 5.0918 4.53677 5.93377C4.53677 6.758 5.15573 7.41808 6.11445 7.41808H6.13289C7.12869 7.41808 7.74851 6.758 7.74851 5.93377C7.73003 5.0918 7.12873 4.44941 6.15227 4.44941V4.44941Z" fill="white"/>
+                              </svg>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="">
+                              <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0C17.0711 0 22 4.92895 22 11C22 17.0711 17.0711 22 11 22C4.92895 22 0 17.0711 0 11C0 4.92895 4.92895 0 11 0ZM17.5878 7.69046C17.4296 7.09882 16.9638 6.633 16.3722 6.47488C15.2998 6.1875 11 6.1875 11 6.1875C11 6.1875 6.70025 6.1875 5.62783 6.47488C5.03637 6.633 4.57037 7.09882 4.41225 7.69046C4.125 8.76275 4.125 11.0001 4.125 11.0001C4.125 11.0001 4.125 13.2373 4.41225 14.3095C4.57037 14.9012 5.03637 15.3672 5.62783 15.5253C6.70025 15.8125 11 15.8125 11 15.8125C11 15.8125 15.2998 15.8125 16.3722 15.5253C16.9638 15.3672 17.4296 14.9012 17.5878 14.3095C17.875 13.2373 17.875 11.0001 17.875 11.0001C17.875 11.0001 17.875 8.76275 17.5878 7.69046ZM9.62496 13.0626V8.93754L13.1972 11.0001L9.62496 13.0626V13.0626Z" fill="white"/>
+                              </svg>
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+                    <p>© 2022 FAiBR</p>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+      <!--  <script src="js/bootstrap.min.js"></script> -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/gh/bbbootstrap/libraries@main/choices.min.js"></script>
+      <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
+      <script src="js/function.js"></script>
+      <script src="js/register-model.js"></script>
+   </body>
+</html>
+

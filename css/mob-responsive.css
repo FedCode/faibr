@@ -1,0 +1,674 @@
+@media only screen and (min-width:1200px) {
+
+#Selectedfilters .modal-dialog.modal-lg {max-width: 1120px;-webkit-transform: translate(0,0);transform: translate(0px,150px);}
+.left-center figure img {margin-left: auto;margin-right: 0;display: block;height: 550px;}
+.container {
+	max-width: 1180px;
+}	
+}
+
+@media only screen and (min-width:1120px) and (max-width:1390px) {
+.left-center figure img {height: 520px;}
+.left-side-head h3 {font-size: 22px;line-height: 34px;}
+header .navbar.navbar-expand-lg.navbar-wcolor {padding: 8px 0 8px;}
+.signup-form-right-side .comapny-signup-forms {padding: 6px 10px;position: relative;}
+
+
+}
+@media only screen and (min-width:768px) and (max-width:1200px) {
+.selected-filters .occupation-list li {margin-bottom: 10px;}
+
+}
+
+
+@media only screen and (min-width:768px) and (max-width:1150px) {
+.contacts-list .contacts-item {margin: 1px 0;}	
+.filter-cards {padding: 30px 18px;}	
+.occupation-list li {padding: 9px 10px;margin-right: 3px;}
+.employees-card {padding: 20px 20px;}
+.employee-cards {padding-top:52px;}	
+.employee-count h4 {font-size: 13px;}
+.employee-count h2 {font-size: 16px;margin: 17px 0;}
+.form-cards label {font-size: 15px;}
+.compnay-preivew-page p {font-size: 15px;line-height: 22px;}
+.compnay-preivew-page h2 {font-size: 17px;}
+.search-result-cards .slick-slider .slick-slide.slick-current, .search-result-cards .slick-slider .slick-slide.slick-center {padding: 0px ;height:auto;}	.setting-detail-page .choices__inner {min-width: 100%;width: auto;}
+.setting-detail-page .job-experience {min-width: 100%;}	
+
+/*PROFILE-PAGE-MOBILE*/
+.one-line {font-size: 13px;}
+.setting-body {padding: 10px 12px;}	
+.custom_radio li {margin-right: 5px;}
+.custom_radio {margin: 10px 0;}
+.password-icon {padding-left: 27px;line-height: 48px;}	
+#Delete-account .modal-dialog {-webkit-transform: translate(0,0);transform: translate(0px, 30vh);}
+.setting-body .form-label {margin-bottom: 15px;font-size: 12px;}
+.user-uneditable-fields {height: 42px;}
+.setting-header h4 {font-size: 16px;}
+.setting-card.accordion {margin-top: 40px;}
+footer {padding: 27px 0 5px;}
+.account-delete-card h4 {font-size: 15px;}
+.setting-page-content {margin-bottom: 40px;}
+.user-register-form .ocupation-list li label {font-size: 12px;padding: 3px 22px;height: 39px;}
+
+/*PROFILE-PAGE-MOBILE-CLOSED*/
+
+
+.online-users {text-align: right;}
+.time {font-size: 10px;}
+.chat-right-option #navbarwnMenuLink svg {text-align: right;margin-left: auto;margin-right: 0;}
+.chat-right-option #navbarDropdownMenuLink {width: 100%;}
+.tab-content > .tab-pane.active + div {display: none;}
+/* .no-message {display: none;} */
+
+.nav.nav-tabs.contacts-list li a.active + .chat-right-option {padding-right: 15px;}
+.nav.nav-tabs.contacts-list li a.active {padding-left: 15px;}
+.avatar {height: 2rem;width: 2rem;min-width: 2rem;}
+.chat-right-option #navbarwnMenuLink {width: 100% !important;text-align: right;margin-left: auto;margin-right: 0;padding: 3px 0;}
+#navbarwnMenuLink svg {margin-left: auto;}
+.chat-right-option {width: 25%;padding: 0;text-align: right;}
+.nav.nav-tabs.contacts-list li a {width:75%;padding-right: 6px;padding-left: 0;}
+#chat {padding: 0 10px;}
+.chat-dashboard.col-md-4 {padding-left: 0;border-right: 1px solid #e5e9f2;padding-right: 0;}
+.page-bottom-area {margin-top: -144px;z-index: -1;margin-bottom:100px;}
+
+}
+
+@media only screen and (min-width:991px) and (max-width:1150px) {
+	#messageBody .container {
+    padding: 0;
+	
+}
+	.d-none.d-md-block.medium-device {
+	display: flex !important;
+	width: 70%;
+}
+
+}
+
+@media only screen and (min-width:768px) and (max-width:991px) {
+.body-overflow-none.custom-container .custom_radio_checkbox li > label {
+	margin-left: 6px;
+	font-size: 13px;
+	line-height: 14px;
+}
+.setting-detail-page .form-label {font-size: 12px;}
+#user-form label.form-label {font-size: 12px;}
+.custom-container .container {
+	max-width: 760px;
+}
+	
+/* 	.navbar.navbar-expand-md.navbar-dark.bg-blue.chat-template-header #navbarNavDropdown {
+	position:absolute;
+} */
+.notification-listing {
+	margin: 5% 2%;
+}	
+		.notifcation-block li .not-etext {
+	min-width: 48%;
+	font-size: 13px;
+	line-height: 17px;
+}
+	.mesaag-icon {
+	padding: 0px 0px;
+	height: auto;
+	margin-right: 10px;
+}
+.notifcation-block li .client-name {
+	min-width: 35%;
+	font-size: 13px;
+}
+.companyprofile-model .modal-dialog {max-width: 700px;}
+.company-profile-cards {
+	padding: 20px 20px;
+}
+.d-none.d-md-block.medium-device {display: flex !important;width: 80%;}
+.signup-form-right-side .comapny-signup-forms {padding: 15px 20px;position: relative;}
+.left-center figure img {width: 70%;margin-left: auto;margin-right: 0;display: block;}	
+.equal-margin {	margin: 50px 0 0;}	
+.company-edit-profiles .form-row.form-style {padding: 40px 20px;}
+.company-edit-profiles .form-group.custom-width > input {min-width: auto;width: 100%;}	
+.company-edit-profiles .padd-left {padding-left: 20px;}	
+.setting-detail-page .d-flex.justify-card .form-group {		margin-right: 10px;}
+.company-chatboard .chat-body .chat-content {	position: relative;}	
+/* .company-chatboard .container {	height: 100%;}	 */
+#profile-description {position: relative;top: 14px;left: -2px;min-width: 60%;width: 60%;}
+.search-result-cards {margin-bottom: 0px;}
+.notification-list ul li p {display: flex;justify-content: flex-start;}
+.notification-list::after{display:none;}
+}
+
+
+@media only screen and (max-width:991px) {
+.inner-tab-body {
+    height: auto;
+    margin-bottom: 30px;
+    padding: 0 15px;
+}	
+#messageBody .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}	
+
+
+
+
+
+
+
+
+
+
+	
+	
+.mobile-pannel-list li a.active > svg > path {fill: #14A800;}
+#profile-description .more-dropdown li a > span {color: #000 !important;font-weight: normal !important;}	
+.mobile-pannel-list li a.active span {color: #000;}	
+.mobile-bottom-pannel .mobile-pannel-list li {position: relative;}	
+.navbar-dark.bg-blue {padding: 2px 15px;}
+.notification-listing h3 {font-size:18px;margin-bottom: 15px;}	
+.main-textarea-address {height: 60px;}
+.company-onboard-setup-right {padding: 10px 10px;border-radius: 15px 15px 0 0;}		
+.medium-hide {display: none !important;}
+ul.navbar-nav.ml-auto.list-border > li {border-bottom: 1px #244e60 solid;padding: 4px 5px;}
+ul.navbar-nav.ml-auto.list-border > li.notification-pdrop {margin-left: 0;}	
+button.navbar-toggler {border: 0;color: #fff;}
+button.navbar-toggler.collapsed:focus {outline: 0;border: 0;}
+.navbar-dark .navbar-toggler-icon {background-image: none;}
+.navbar-close-icon {display: none;}
+button.navbar-toggler[aria-expanded="true"] span.navbar-toggler-icon {display: none;}
+button.navbar-toggler[aria-expanded="true"] span.navbar-close-icon {display: block;height: 30px;width: 30px;}
+span.navbar-close-icon img {width: 23px;position: relative;top: 2px;right: -1px;}
+nav.navbar.navbar-expand-lg.navbar-dark.bg-blue {padding:0px 15px;}	
+nav.navbar.navbar-expand-lg.navbar-dark.bg-blue {padding: 0px 15px;}
+button.navbar-toggler {padding: 12px 20px;border-radius: 0;position: relative;right: -15px;}
+.navbar-wcolor button.navbar-toggler {
+	padding: 12px 0px;
+	border-radius: 0;
+	position: relative;
+	right: 0;
+}
+.navbar-toggler:focus, .navbar-toggler:hover {text-decoration: none;border: 0;outline: 0;}
+/* .dropdown-menu.header-dropdown.show {position: static;} */
+
+}
+
+@media only screen and (min-width:350px) and (max-width:767px) {
+.message-list-inline li .form-group label {padding: 10px 6px;}	
+.message-list-inline li .form-group label h3 {
+	font-size: 11px;
+	font-weight: normal;
+}
+/* Comapany mobile bottom heder pannel */	
+.notifcation-block li .not-etext {
+	min-width: 49%;
+	font-size: 13px;
+}
+.mesaag-icon svg {
+	height: 12px;
+	width: 12px;
+	margin-bottom: 0;
+}
+
+.mobile-pannel-list .menu-text {font-size: 13px;font-weight: 600;color: #5b585880;}
+
+}
+
+
+@media only screen and (max-width:767px) {
+#user-form label.form-label {
+    font-size: 14px;
+    margin: 10px 0;
+}	
+.main-layout-chart.no-height-fixed {
+	height: auto;
+}	
+.notification-page-card.congrates-page-block .new figure img {
+	width: 29%;
+	margin: 0 auto;
+}
+.notification-page-card.congrates-page-block {
+	height: 100vh;
+}
+.bottom-images {display: none;
+}	
+.notification-page-card.congrates-page-block .help-page .user-register-form .ocupation-list li label {
+	font-size: 10px;
+	padding: 3px 6px;
+	margin-bottom: 2px;
+}
+.notification-page-card.congrates-page-block #user-form label.form-label {
+	margin: 0px 0 10px;
+}
+.notification-page-card.congrates-page-block .new p {
+	font-size: 14px;
+}
+.notification-page-card.congrates-page-block .help-page h3 {
+	max-width: 100%;
+	margin: 1px auto;
+
+	font-size: 16px;
+}
+.notification-page-card.congrates-page-block .new {
+	padding: 10px 10px;
+}
+.notification-page-card.congrates-page-block .new h4 {
+	font-size: 14px;
+	margin: 10px 0;
+}
+.congrates-page-bloc #user-form label.form-label {
+
+	font-size: 16px;
+	
+	margin: 9px 0;
+}
+	button.close {
+    opacity: 1;
+    position: relative;
+    top: -1px;
+}
+	.help-page h3 {font-size: 20px;}
+.notification-page-card .help-page {
+    max-width: 100%;
+    margin: 10px auto;
+    text-align: center;
+    border: 0;
+}
+.new {
+    padding: 20px 20px;
+}
+.new h4 {font-size: 17px;}
+#user-form label.form-label {font-size: 14px;}	
+.hide-for-mobile-device{display:none;}
+.form-group.mobile-select-cards {display: block;}
+.bottom-images {
+    position: absolute;
+    bottom: -40px;
+    /* width: 78px; */
+}
+.choices[data-type*=select-multiple] .choices__button, .choices[data-type*=text] .choices__button {
+border-left: 1px solid #212529 !important;}
+figure.bottom-images img {
+    width: 67px;
+}
+	
+.reciep-body table.table {border: 0;font-size: 11px;}
+.receiptop-body tbody tr td {font-size: 11px;}
+.receipt-header > h4 {font-size: 15px;	}	
+a.text-id {font-size: 11px;}
+.receipt-header { margin: 20px 0 0;}	
+.reciep-body {padding: 0px; margin: 20px 0 60px;}
+.receipt-header h3 {font-size: 20px;}
+.receiptop-header h3 {font-size: 17px;margin-bottom: 10px;}	
+.main-layout-chart {
+    height: 100vh;
+}	
+.connect-footer {padding: 10px 20px;}	
+/* .compnay-buyconnect-page {height: calc(100vh - 128px);} */
+.buycredt-btn {font-size: 13px;}
+.compnay-buyconnect-page {padding: 20px 0;}
+.connect-body {padding: 10px 20px;}
+.connect-header {padding: 10px 20px;}
+.connect-body .form-group {margin-bottom: 20px;}
+.connect-header h3 {font-size: 15px;line-height: 27px;}
+.select-amount {width: 100%;}	
+.mobile-bottom-pannel .mobile-pannel-list li a .notification-sign {left: auto;top: 0px;}
+.navbar-dark.bg-blue {padding: 8px 15px;}	
+.navbar-brand img {width: 60px;}
+.navbar-nav.ml-auto.list-border li a {text-align: left;position: relative;}
+.menu-text {text-align: left;}
+.help-page {min-height: calc(100vh - 116px);}
+.help-info h3 {font-size: 17px;}
+.help-info p {font-size: 14px;line-height: 24px;}
+.chat-body .chat-content {height: calc(100vh - 108px);}
+.notification-sign {right: auto;top: -1px;left: 22px;}
+nav.navbar.navbar-expand-md.navbar-dark.bg-blue.chat-template-header { height: 45px;}
+.main-layout.chat-dashboard.company-chatboard {padding-top: 44px;overflow: hidden;}
+.chats-tab-open.active .main.main-visible{ visibility: visible;transform: translateX(0);}
+main.main.main-visible {visibility: hidden;transform: translateX(100%);transition: transform .3s ease,visibility .3s ease;height: calc(100vh - 45px);} 	
+.chathistory.hide-scrollbar {    overflow-y: auto;    overflow-x: hidden;}	
+.main-layout .sidebar {border-right: 0;height: calc(100vh - 45px);}
+	.suggestion-message {padding: 10px;max-width: 100%;margin-bottom: 20px;}	
+.suggestion-message h4 {font-size: 13px;line-height: 18px;}
+.message-list-inline {margin-bottom: 0;}
+.choices__list--dropdown .choices__item {font-size: 13px !important ;}	
+.setting-detail-page .choices__list--multiple .choices__item {padding: 4px 3px !important;margin:4px 2px;}
+.form-row.form-style .form-row > .col, .form-row > [class*="col-"] {padding-right: 10px;padding-left: 10px;}
+.notifcation-block li .client-name {
+    min-width: 44%;
+    font-size: 11px;
+    line-height: 15px;
+    margin-left: 4px;
+}
+.notifcation-block li .not-etext {
+    min-width: 40%;
+    font-size: 11px;
+    line-height: 15px;
+}
+.felx-crd .mesaag-icon {
+    width: 7%;
+}
+.mesaag-icon small {
+    width: 20px;
+    height: 20px;
+}
+.notifcation-block li .hide-notification {
+    width:auto; 
+    text-align: right;
+}
+.notificationcard .notifcation-block li .felx-crd {
+    line-height: initial;
+    margin-bottom: 10px;
+    height: 100%;
+    line-height: 12px;
+}
+.hide-notification {
+    margin-left: 7px;
+}
+.notifcation-block li {
+    display: block;
+   
+}
+.notification-listing {
+    margin: 5% 0;
+    padding: 0 15px;
+}
+.mesaag-icon {padding: 0px 0px;height: auto;margin-right:5px;}
+.notification-listing h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}	
+.notification-listing {margin: 5% 3%;}
+.notification-listing {
+    margin: 5% 0%;
+    width: 100%;
+}
+.notificationcard {
+    width: 100%;
+    padding: 10px 10px;
+}
+.company-heads {padding: 26px 0;}
+.onboard-left-side h4 {font-size: 19px;line-height: 29px;margin: 35px 0;font-weight: bold;}
+.company-onboard-setup-right {padding: 10px 10px;border-radius: 15px 15px 0 0;}	
+.onboard-header h4 {font-size: 20px;line-height: 31px;}
+.form-group.bottom-pannel-butn p {margin-bottom: 2px;font-size: 13px;}	
+.comapny-onboard-form.form-row .form-group {margin-bottom: 15px;}
+.company-onboard-setup-right .comapny-onboard-form.form-row .form-group {margin-bottom: 10px;}
+.save-btn.full-button {width: 100%;margin: 15px auto 0;}
+.custom_radio {	margin-left: 0;}	
+.setting-detail-page.prmotion-page {
+    min-height: calc(100vh - 151px);
+}	
+.mobile-bottom-pannel.employee-edit-mobile .menu-text {font-size: 10px;}
+.mobile-bottom-pannel.employee-edit-mobile ul li a.active path.active-path2 {fill: #14A800;}
+.mobile-bottom-pannel.employee-edit-mobile ul li a.active > .menu-text {color: #000000;}	
+.hide-header-nav{display:none;}
+
+
+.web-links h3 {font-size: 24px;margin-left: 0px;  line-height: 50px;}
+.main-layout.chat-dashboard.user-chatborad .nav.nav-tabs.contacts-list {padding-bottom: 73px;}
+	
+.company-profile-cards {padding: 10px 5px;}	
+.company-header {display: block;margin-bottom: 20px;text-align: center;}	
+.web-links h3 {margin-left: 0px;}
+.company-body {margin-left: 0;}
+.web-links {display: block;}
+#CompanyProfilemodel.companyprofile-model .modal-dialog {-webkit-transform: translate(0,0);transform: translate(0,50px);}	
+.company-body {margin-left: 0;}	
+#CompanyProfilemodel {padding-left: 0 !important;}	
+.company-body h6 {font-size: 13px;	margin: 12px 0 0;}
+.company-body p {font-size: 13px;}
+	
+	
+.fomr-group.mt-5 > p {font-size: 13px;}
+.fomr-group.mt-5 > p > a {font-size: 13px;}
+	
+	.d-none.d-md-block.medium-device {
+  display:none !important;
+}
+.left-center figure img {
+	width: 71%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+.signup-form-right-side .comapny-signup-forms {padding: 15px 10px;}	
+.left-center {
+	display: flex;
+	justify-content: start;
+	flex-wrap: wrap;
+}
+.left-side-head h3 {font-size: 20px;line-height: 31px;}	
+.left-side-body p {text-align: left;color: rgba(255, 255, 255, 0.75);font-size: 14px;}
+.dropdown-menu.hide-message-event.show ul li {display: block;font-weight:bold;}
+.message-history-block {margin-bottom: 100px;}
+.dropdown-menu.hide-message-event {transform: translate3d(-79px, 0px, 0px) !important;width: 100%;box-shadow: none !important;padding: 5px 10px !important;}
+h3.form-heading {font-size: 15px;line-height: 24px;}
+.company-signup-block {padding: 10px 0;}
+/* Comapany mobile bottom heder pannel */
+.equal-margin {margin: 25px 0 0;}
+.save-btn {height: 41px;padding: 0px 22px;font-size: 13px;}
+.setting-detail-page .choices__inner {min-width: 100%;}
+.setting-detail-page .salary-field.user-uneditable-fields {width: 100%;}
+.setting-detail-page .job-experience {min-width: 100%;}
+.form-cards {margin-bottom: 18px;}
+.employees-footer.text-right.mobile-preview-buttons {display: flex !important;padding: 5px 15px;}
+.employee-count h2 {font-size: 17px;margin: 13px 0;}
+.mobile-pannel-list li a.active svg .active-path {	fill: #14A800;}
+.company-send-message h3 {	font-size: 14px;	font-weight: 600;}
+.mobile-pannel-list .menu-text {		font-weight: 600;	color: #5b585880;}
+.setting-detail-page.job-prefrence.company-dashboard .choices__inner {min-width: 100%;width: 100%;}
+.setting-detail-page.job-prefrence.company-dashboard .job-experience {min-width: 100%;}
+.kind-of-message {padding: 35px 18px;width: 100%;}
+.message-list-inline li .form-group label {padding: 10px 6px;}
+.message-list-inline li {margin-right:0px;}
+.kind-of-message > h3 {font-size: 15px;line-height: 27px;}
+.setting-detail-page.job-prefrence.company-dashboard .kind-of-message .message-list-inline li .form-group {	margin-bottom: 10px;}
+/* Comapany mobile bottom heder pannel closed*/
+
+.header-card.header-padding h3 {font-size: 17px;}
+.header-card.header-padding {padding: 0px 15px;}
+.company-send-message {padding: 12px;}
+.mobile-bottom-pannel{display:block;}
+.mobile-hidden-btn {display: none;}
+.compnay-employee-page {margin-bottom: 20px;}
+.employees-footer.text-right {display: flex;}
+.employee-cards {padding-top:15px;}
+.mobile-pannel-list li a {padding: 0;}
+.mobile-pannel-list li {display: inline-block;}
+.mobile-bottom-pannel {
+    position: sticky;
+    bottom: 0;
+    background: #fff;
+    padding: 20px 0 15px;
+    z-index: 1;
+    border-top: 1px #d1d1d1 solid;
+}
+.mobile-bottom-pannel .mobile-pannel-list {margin-bottom: 0;}
+.menu-text {width: 100%;display: block;text-align: center;font-size: 10px;font-weight: 500;}
+.mobile-pannel-list li {text-align: center;}
+.mobile-pannel-list li a svg {height: 19px;width: 19px;}
+.notification-pdrop .click svg {height: 19px;width: 19px;}
+.compnay-preivew-page p {font-size: 14px;line-height: 22px;}
+.filter-cards {padding: 15px 11px;}
+.occupation-list li {padding: 8px 9px;margin-right: 2px;font-size: 11px;}
+nav.navbar.navbar-expand-lg.navbar-dark.bg-blue {padding: 1px 15px;width: 100%;}
+.mobile-pannel-list li {width: 18%;}
+.mobile-bottom-pannel #profile-description.notification-list {position: absolute;min-width: 120px;bottom: 65px;left: auto;right: 20px;top: auto;background: #FFFFFF;box-shadow: 0px 0px 6.93976px rgba(37, 40, 43, 0.12);border-radius: 6.93976px;border: 1px #ddd solid;padding: 5px 0;}
+.mobile-bottom-pannel .more-dropdown li a svg {width: 15px;height: 15px;position:relative;top:3px;}
+.mobile-bottom-pannel .more-dropdown li a {font-size: 13px;}
+.mobile-bottom-pannel .more-dropdown li a img, .mobile-bottom-pannel .more-dropdown li a svg  {margin-right: 3px;}
+.mobile-bottom-pannel .notification-list ul li {padding: 3px 6px;display: flex;}
+.mobile-bottom-pannel .more-dropdown li a img {width: 17px;height: 17px;}
+.more-dropdown li a {font-size: 14px;color: #000;}
+/* Comapany mobile bottom heder pannel closed */	
+	
+
+.employees-card {padding: 20px 10px;}	
+.filter-cards {padding: 20px 10px;}	
+.occupation-list li {padding:7px 14px;margin-right: 2px;}
+.compnay-preivew-page p {font-size: 15px;}
+.form-cards label {font-size: 15px;margin-bottom:10px;}	
+.compnay-preivew-page h2 {font-size: 17px;}
+.compnay-preivew-page {padding: 25px 0 20px;}
+.compnay-preivew-page .fillter-box {margin-top: 10px;}
+.filter-heading {font-size: 15px;}
+
+.back-to-page {margin-bottom: 25px;}
+.back-to-page h3 {font-size: 17px;}	
+.equal-margin {margin: 35px 0 25px;}
+.page-bottom-area {margin-top: 0;z-index: -1;margin-bottom: 23px;}
+.page-bottom-area img {display: none;}
+.setting-detail-page .form-group {
+	margin-bottom: 15px;
+}	
+.setting-detail-page.prmotion-page .back-to-page {margin-bottom: 40px;}	
+
+
+/*COMPANY-DASHBOARD-PAGE-MOBILE*/
+.notification-list::after{display:none;}
+.mesaag-icon svg {height:13px;width: 13px;}
+.notification-list ul li {padding: 7px 6px;}
+.location-card {font-size: 13px;}
+.search-result-cards .slick-prev {left: 0;}
+.search-result-cards .slick-next {right: 0;}
+.search-result-cards .slick-slider .slick-slide.slick-current, .search-result-cards .slick-slider .slick-slide.slick-center {padding: 0px 0px;height:auto;}
+.search-result-cards {padding: 30px 0;margin-bottom: 0px;}
+.profile-card img {margin: 20px auto;}
+#profile-description {position: static;min-width: 100%;left: 0;right: 0;}
+.search-result-cards .slick-slider .slick-slide {margin: 10px 12px;}
+
+.client-name {font-size: 12px;margin-left: 1px;}
+.notification-list ul li p {font-size: 12px;margin-bottom: 0;}
+.notification-pdrop {margin: 0;}
+.serach-results {line-height: 20px;font-size: 14px;width: 100%;}
+.save-btn.send-message {font-size: 13px;padding: 10px 0px;width: 68%;}
+.search-result-cards .slick-list {margin: 0 20px;padding: 0;}
+.search-result-cards {background: linear-gradient(0deg, rgba(29, 67, 84, 0.8), rgba(29, 67, 84, 0.8));}	
+/*PROFILE-PAGE-MOBILE*/
+
+.setting-card.accordion {margin-top: 20px;}
+.setting-body {margin: 10px 0;padding: 15px 15px;}
+.setting-card .card-body {padding: 0;}
+#main .card .card-header .btn-header-link {padding:20px 0;}
+.setting-header h4 {font-size: 16px;}
+.form-group {margin-bottom: 5px;}
+.setting-body .form-label {margin-bottom: 10px;font-size: 15px;}
+.form-row.form-style .form-group {margin-bottom: 18px;}
+.user-register-form .ocupation-list li label {font-size: 13px;padding: 3px 15px;}
+.user-uneditable-fields {font-size: 14px;}
+.setting-body .form-label {font-size: 14px;}
+.account-delete-card h4 {font-size: 14px;}
+.account-delete-card a {font-size: 13px;}
+.website-models .modal-body {padding: 20px 20px;}
+.detail-list p {margin-right: 7px;font-size: 13px;}
+#Delete-account .modal-dialog {-webkit-transform: translate(0,0);transform: translate(0px, 20vh);}
+.brder-button {margin-left: 20px;}
+.footer-list li {margin-right: 2px;}
+footer {padding: 15px 0 15px;}
+.detail-list p {margin-bottom: 5px;}
+.website-models .modal-header {margin: 0px 28px;}
+.modal-body h4 {font-size: 17px;margin: 10px 0;}
+.checkbox span {margin-left: 6px;}
+.one-line {font-size: 12px;}
+.text-muted.small {font-size: 13px;}
+.login-form .form-group {margin-bottom: 15px;}
+footer p {margin-bottom: 0;}
+.footer-list {margin-bottom: 6px;}
+.footer-list li a svg {height: 16px;width: 19px;}
+.detail-list {margin-bottom: 10px;}
+
+.no-message {display: none;}
+.btn.btn-secondary.btn-icon.btn-minimal.btn-sm.text-muted.d-xl-none.show-sidebar-btn {display: block;padding-top: 6px;}
+.main-layout .sidebar{border-right:0;}
+.chat-dashboard.mobile-chat-hide {padding-left: 0;border-right: 0;padding-right: 0;}
+.online-users {text-align: right;}
+.chat-right-option #navbarwnMenuLink {position: relative;z-index: 999;}
+.contacts-list .contacts-item {margin: 3px 0;}
+.chat-right-option a#navbarwnMenuLink {padding-right: 0;padding: 4px 0;}
+.chat-right-option a {width: 100% !important;}
+body.chats-tab-open.hide-chat-pannel .main-right{display: none;}
+.chat-right-option a.nav-link.dropdown-toggle.nav-after svg {height:20px;width: 20px;text-align: right;display: block;margin-left: auto;margin-right: 0 !important;}	body.chats-tab-open.active.hide-chat-pannel .mobile-chat-hide {display:block;}	
+a.btn.btn-secondary.btn-icon.btn-minimal.btn-sm.text-muted.d-xl-none { margin-right: 14px;}	
+.dropdown-menu.show a {line-height: 9px;}
+.btn-icon {height: 2rem;width: 2rem;}	
+.col-auto {padding: 0 2px;}
+.message-dividers {margin: 5px 0;}
+.days-ago {font-size: 12px;padding: 2px 0;padding-right: 4%;}	
+.message-box span {font-size: 12px;}
+.dropdown-menu.header-dropdown.show {left: 51px;top: -44px;text-align: left;padding: 15px;box-shadow: none;}
+.message-wrapper .nav-item.dropdown #navbarDropdownMenuLink {padding: 19px 10px 0;}	
+.chat-right-option {padding: 2px 15px 10px 0px;width: 25%;text-align: right;}
+.nav.nav-tabs.contacts-list li a {width: 75%;padding-right: 6px;padding-top: 9px;padding-bottom: 9px;padding-left: 9px;}	
+.avatar {height: 2.5rem;width: 2.5rem;min-width: 2.5rem;border-radius: 50%;}
+.chat-header .text-truncate.mb-0 {font-size: 14px;}
+.chat-body .chat-header {padding: 10px 5px;}
+#chat {padding: 0px 10px;}
+.message-day {padding:0px;position: relative;}	
+.chat-ttile h2 {font-size: 12px;line-height: 19px;}	
+.chat-ttile {
+	margin: 0px 0 13px;
+	padding: 10px 0 0;
+}
+.form-group.select-fields select {
+    height: 37px;
+    border-radius: 8px;
+    border: 1px solid #D1D1D1;
+    color: #6c6c69;
+    width: 100%;
+    font-size: 12px;
+    background: #fff;
+    padding: 0px 10px;
+}
+.setting-detail-page.job-prefrence.company-dashboard  #user-form label.form-label {
+    font-size: 14px;
+    margin: 5px;
+}
+body.chats-tab-open.active .mobile-chat-hide {display: none;}
+
+.setting-detail-page.job-prefrence.company-dashboard .form-row.form-style .form-group {
+    margin-bottom: 10px;
+}
+.setting-detail-page.job-prefrence.company-dashboard #main p {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.setting-detail-page.job-prefrence.company-dashboard h2 { font-size: 19px; margin-bottom: 6px;}
+.setting-detail-page.job-prefrence.company-dashboard #main p { font-size: 13px;}
+.chat-ttile.company-chat-title h2 {
+    font-size: 15px;
+    margin-bottom: 0;
+}
+.show-selected-filters {font-size: 12px;}
+.selected-filters .occupation-list li {margin-bottom: 7px;}
+.selected-filters .form-cards {width: 100%;float: left;}
+#Selectedfilters .modal-dialog.modal-lg {-webkit-transform: translate(0,20px);transform: translate(0px,20px);}
+
+.chats-tab-open.active .mobile-bottom-pannel {display: none;}
+.company-chat-navbar {display: none;}
+/* body.company-chatbody, html {height:auto;overflow: inherit; } */
+/* .nav.nav-tabs.contacts-list {padding-bottom: 73px;} */
+
+.company-chatboard  .chat-body .chat-footer {background: #fff;width: 100%;bottom: 0;}
+#CompanyProfile .modal-dialog.modal-lg {max-width: 100%;}
+}
+@media only screen and (max-width:375px) {
+.compnay-buyconnect-page {
+    height:auto;
+}	
+	
+}
+
+@media only screen and (max-width:500px) {
+.message-list-inline li {
+	margin-right: 0px;
+	width: 49%;
+}
+.message-list-inline li .form-group label {
+	padding: 10px 6px;
+	width: 100%;
+	text-align: center;
+}
+}

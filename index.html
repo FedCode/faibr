@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>FAiBR</title>
+	<meta content="width=device-width, initial-scale=1" name="viewport" />
+	<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/main.css" rel="stylesheet" type="text/css" />
+	 <link href="css/register-model.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bbbootstrap/libraries@main/choices.min.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,300;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+	<link href="images/Favicon.jpg" rel="shortcut icon" type="image/x-icon" />
+	<link href="images/Webclip.png" rel="apple-touch-icon" />
+</head>
+<body>
+	<header>
+	<nav class="navbar navbar-expand-lg navbar-wcolor">
+		<div class="container">
+		<a href="#" class="logo brand w-nav-brand w--current"><img src="images/main-logo.png" alt="png" /></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"><img src="images/menu-icon.svg"></span>
+		<span class="navbar-close-icon"><img src="images/close-icon.svg"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ml-auto">
+			<li class="nav-item active">
+			<a class="nav-link" href="company-signup.html">Yrityksille</a>
+			</li>
+			<li class="nav-item">
+			<a class="nav-link" href="login-page.html">Kirjaudu sisään</a>
+			</li>
+
+			</ul>
+			<ul class="d-lg-none d-block d-sm-block mobile-footer">
+			  <div class="detail-list">
+                     <p>Seuraa meitä somessa:</p>
+                     <ul class="footer-list">
+                        <li>
+                           <a href="">
+                              <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M22 11C22 4.92486 17.0751 0 11 0C4.92486 0 0 4.92486 0 11C0 16.4904 4.02256 21.0412 9.28125 21.8664V14.1797H6.48828V11H9.28125V8.57656C9.28125 5.81969 10.9235 4.29688 13.4361 4.29688C14.6396 4.29688 15.8984 4.51172 15.8984 4.51172V7.21875H14.5114C13.1449 7.21875 12.7188 8.06665 12.7188 8.93655V11H15.7695L15.2818 14.1797H12.7188V21.8664C17.9775 21.0412 22 16.4904 22 11Z" fill="white"/>
+                              </svg>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="">
+                              <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0C17.0711 0 22 4.92895 22 11C22 17.0711 17.0711 22 11 22C4.92895 22 0 17.0711 0 11C0 4.92895 4.92895 0 11 0ZM9.0625 16.8505C13.9301 16.8505 16.5917 12.8171 16.5917 9.32143C16.5917 9.20618 16.5917 9.09094 16.5862 8.98116C17.102 8.60802 17.552 8.14155 17.9087 7.60925C17.4368 7.81778 16.9264 7.96048 16.3886 8.02631C16.9374 7.69704 17.3544 7.1812 17.552 6.56111C17.0416 6.86293 16.4764 7.08241 15.8727 7.20315C15.3898 6.68731 14.7039 6.36904 13.9411 6.36904C12.4813 6.36904 11.296 7.55438 11.296 9.01411C11.296 9.22264 11.318 9.42567 11.3673 9.61774C9.16678 9.508 7.21862 8.45436 5.91259 6.85193C5.68756 7.24157 5.55586 7.69703 5.55586 8.17996C5.55586 9.0964 6.02233 9.90859 6.73574 10.3805C6.30218 10.3696 5.89609 10.2488 5.5394 10.0513V10.0842C5.5394 11.3683 6.45034 12.4329 7.66313 12.6799C7.44365 12.7402 7.20766 12.7732 6.96622 12.7732C6.79607 12.7732 6.63145 12.7567 6.46684 12.7238C6.80157 13.7774 7.77838 14.5402 8.9363 14.5622C8.03082 15.2701 6.88939 15.6927 5.64914 15.6927C5.43512 15.6927 5.22659 15.6817 5.01806 15.6542C6.17598 16.4115 7.56985 16.8505 9.0625 16.8505Z" fill="white"/>
+                              </svg>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="">
+                              <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0C17.0711 0 22 4.92895 22 11C22 17.0711 17.0711 22 11 22C4.92895 22 0 17.0711 0 11C0 4.92895 4.92895 0 11 0ZM11 4.125C9.13288 4.125 8.89874 4.13291 8.16544 4.16638C7.43368 4.19977 6.93391 4.316 6.49657 4.48594C6.0445 4.66164 5.66109 4.89672 5.27888 5.27893C4.89668 5.66113 4.66159 6.04454 4.48589 6.49662C4.31595 6.93391 4.19977 7.43368 4.16634 8.16544C4.13291 8.89874 4.125 9.13288 4.125 11C4.125 12.8671 4.13291 13.1013 4.16634 13.8346C4.19977 14.5663 4.31595 15.0661 4.48589 15.5034C4.66159 15.9555 4.89668 16.3389 5.27888 16.7211C5.66109 17.1033 6.0445 17.3384 6.49657 17.5141C6.93391 17.684 7.43368 17.8002 8.16544 17.8336C8.89874 17.8671 9.13288 17.875 11 17.875C12.8671 17.875 13.1013 17.8671 13.8346 17.8336C14.5663 17.8002 15.0661 17.684 15.5034 17.5141C15.9555 17.3384 16.3389 17.1033 16.7211 16.7211C17.1033 16.3389 17.3384 15.9555 17.5141 15.5034C17.684 15.0661 17.8002 14.5663 17.8336 13.8346C17.8671 13.1013 17.875 12.8671 17.875 11C17.875 9.13288 17.8671 8.89874 17.8336 8.16544C17.8002 7.43368 17.684 6.93391 17.5141 6.49662C17.3384 6.04454 17.1033 5.66113 16.7211 5.27893C16.3389 4.89672 15.9555 4.66164 15.5034 4.48594C15.0661 4.316 14.5663 4.19977 13.8346 4.16638C13.1013 4.13291 12.8671 4.125 11 4.125ZM11 5.36375C12.8357 5.36375 13.0531 5.37075 13.7781 5.40384C14.4484 5.43443 14.8124 5.54641 15.0547 5.64055C15.3756 5.76525 15.6046 5.91426 15.8452 6.15484C16.0858 6.39538 16.2348 6.62445 16.3594 6.94534C16.4536 7.1876 16.5656 7.55159 16.5962 8.2219C16.6293 8.94687 16.6363 9.16429 16.6363 11C16.6363 12.8357 16.6293 13.0531 16.5962 13.7781C16.5656 14.4484 16.4536 14.8124 16.3594 15.0547C16.2348 15.3756 16.0858 15.6046 15.8452 15.8452C15.6046 16.0858 15.3756 16.2348 15.0547 16.3594C14.8124 16.4536 14.4484 16.5656 13.7781 16.5962C13.0533 16.6293 12.8358 16.6363 11 16.6363C9.16416 16.6363 8.94678 16.6293 8.2219 16.5962C7.55159 16.5656 7.1876 16.4536 6.94534 16.3594C6.62441 16.2348 6.39538 16.0858 6.1548 15.8452C5.91422 15.6046 5.76525 15.3756 5.64055 15.0547C5.54641 14.8124 5.43439 14.4484 5.40379 13.7781C5.37071 13.0531 5.36375 12.8357 5.36375 11C5.36375 9.16429 5.37071 8.94687 5.40379 8.2219C5.43439 7.55159 5.54641 7.1876 5.64055 6.94534C5.76525 6.62445 5.91422 6.39538 6.1548 6.15484C6.39538 5.91426 6.62441 5.76525 6.94534 5.64055C7.1876 5.54641 7.55159 5.43443 8.2219 5.40384C8.94687 5.37075 9.16429 5.36375 11 5.36375ZM11 7.4696C9.05021 7.4696 7.4696 9.05021 7.4696 11C7.4696 12.9498 9.05021 14.5304 11 14.5304C12.9498 14.5304 14.5304 12.9498 14.5304 11C14.5304 9.05021 12.9498 7.4696 11 7.4696V7.4696ZM11 13.2917C9.73436 13.2917 8.70835 12.2656 8.70835 11C8.70835 9.73436 9.73436 8.70835 11 8.70835C12.2656 8.70835 13.2917 9.73436 13.2917 11C13.2917 12.2656 12.2656 13.2917 11 13.2917V13.2917ZM15.4949 7.33012C15.4949 7.78577 15.1255 8.15508 14.6699 8.15508C14.2143 8.15508 13.8449 7.78577 13.8449 7.33012C13.8449 6.87448 14.2143 6.50512 14.6699 6.50512C15.1255 6.50512 15.4949 6.87448 15.4949 7.33012Z" fill="white"/>
+                              </svg>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="">
+                              <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0C17.0711 0 22 4.92895 22 11C22 17.0711 17.0711 22 11 22C4.92895 22 0 17.0711 0 11C0 4.92895 4.92895 0 11 0ZM7.56091 17.182V8.5916H4.70504V17.182H7.56091ZM17.8571 17.182V12.2558C17.8571 9.61709 16.4483 8.38961 14.5696 8.38961C13.0547 8.38961 12.3762 9.22273 11.9962 9.80787V8.5916H9.14109C9.17894 9.39757 9.14109 17.182 9.14109 17.182H11.9962V12.3845C11.9962 12.1277 12.0147 11.871 12.0903 11.6875C12.2964 11.1747 12.7665 10.6434 13.5554 10.6434C14.5881 10.6434 15.0018 11.4314 15.0018 12.5858V17.182H17.8571V17.182ZM6.15227 4.44941C5.17516 4.44941 4.53677 5.0918 4.53677 5.93377C4.53677 6.758 5.15573 7.41808 6.11445 7.41808H6.13289C7.12869 7.41808 7.74851 6.758 7.74851 5.93377C7.73003 5.0918 7.12873 4.44941 6.15227 4.44941V4.44941Z" fill="white"/>
+                              </svg>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="">
+                              <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0C17.0711 0 22 4.92895 22 11C22 17.0711 17.0711 22 11 22C4.92895 22 0 17.0711 0 11C0 4.92895 4.92895 0 11 0ZM17.5878 7.69046C17.4296 7.09882 16.9638 6.633 16.3722 6.47488C15.2998 6.1875 11 6.1875 11 6.1875C11 6.1875 6.70025 6.1875 5.62783 6.47488C5.03637 6.633 4.57037 7.09882 4.41225 7.69046C4.125 8.76275 4.125 11.0001 4.125 11.0001C4.125 11.0001 4.125 13.2373 4.41225 14.3095C4.57037 14.9012 5.03637 15.3672 5.62783 15.5253C6.70025 15.8125 11 15.8125 11 15.8125C11 15.8125 15.2998 15.8125 16.3722 15.5253C16.9638 15.3672 17.4296 14.9012 17.5878 14.3095C17.875 13.2373 17.875 11.0001 17.875 11.0001C17.875 11.0001 17.875 8.76275 17.5878 7.69046ZM9.62496 13.0626V8.93754L13.1972 11.0001L9.62496 13.0626V13.0626Z" fill="white"/>
+                              </svg>
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+			<ul/>
+        </div>
+		</div>
+	</nav>
+		
+	</header>
+ 
+	<section class="section---hero process-hero wf-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-10 col-sm-10 ml-auto">
+				<div class="banner-cta">
+				<h5>Anonyymi ja ilmainen</h5>
+				<h1>Työliidit suoraan puhelimeesi
+				</h1>
+				<p>Hoitaja, kuule uusista mahdollisuuksista ensimmäisenä. Työnantaja, tavoita alueesi hoitajat yhdellä viestillä.</p>
+						
+<a href="" class="btn-left-arrow w-button" data-toggle="modal" data-target="#RegisterModal">Tutustu palveluun <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="13" cy="13" r="13" fill="white"/>
+<g clip-path="url(#clip0_371_157)">
+<path d="M15.4338 12.4167L12.3048 9.28766L13.1297 8.46283L17.6668 13L13.1297 17.5372L12.3048 16.7123L15.4338 13.5833H8.3335V12.4167H15.4338Z" fill="black"/>
+</g>
+<defs>
+<clipPath id="clip0_371_157">
+<rect width="14" height="14" fill="white" transform="translate(6 20) rotate(-90)"/>
+</clipPath>
+</defs>
+</svg></a>
+				</div>
+				<!-- /.banner-cta -->
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="website-animation-image">
+	<img src="images/FAiBR-Looped-gif-Alpha.gif"> 
+
+</section>
+	<!-- <section class="Discovery-section">
+		<div class="container-fluid">
+			<div class="row">
+			  <div class="col-md-4 padding-right border-card-style">
+			    <div class="discovery-card block-one">
+				  <div class="content-card">
+				  <h2>Save Time with Job Leads Online</h2>
+				  <p>FAiBR is an innovative approach to receiving prospective job offers. Our proprietary software
+				  intuitively updates you with all relevant job offers in your area. Unparalleled user
+				  experience meets autonomous job lead generation.</p>
+				  </div>
+				  <figure>
+				     <img src="images/f-one.gif">
+				  </figure>
+				</div>
+			  </div>
+			  <div class="col-md-3 padding-right border-card-style">
+			    <div class="discovery-card block-two">
+				 <div class="content-card">
+				  <h2>Strategy</h2>
+				  <p>
+                    We start every new client interaction with an in-depth discovery call where we get to know each other, 
+					discuss your current and future objectives, and recommend the best course of action.</p>
+					</div>
+				   <figure>
+				     <img src="images/f-two.gif">
+				  </figure>
+				</div>
+			  </div>
+			  <div class="col-md-5 padding-right border-righ border-card-style">
+			     <div class="discovery-card block-three">
+				  <div class="content-card">
+				  <h2>Design</h2>
+				  <p>
+					We start every new client interaction with an in-depth discovery call where we get to know each other, 
+					discuss your current and future objectives, and recommend the best course of action.</p>
+					</div>
+					 <figure>
+				     <img src="images/f-three.gif">
+				  </figure>
+				</div>
+			  
+			  </div>
+			</div>
+		</div>	
+	</section> -->	
+	<section class="Discovery-section">
+		<div class="container">
+			<div class="row">
+			   <div class="col-md-7 order-two">
+			      <div class="inner-content">
+				     <h3 class="d-none d-md-block">Kuinka se toimii?</h3>
+                     <h5>1. Luo anonyymi profiilisi vain 10 sekunnissa</h5>	
+                      <p>Luo ilmainen profiilisi silmänräpäyksessä. Aseta myös halutessasi palkkataso,
+					  niin saat viestejä töistä, joissa palkka vastaa haluamaasi.</p>
+                      <h5>2.Vastaanota yrityksiltä viestejä työmahdollisuuksista</h5>	
+                      <p>Olet aina anonyymisti yritysten löydettävissä ja et missaa unelmiesi työmahdollisuuksia.</p>
+                       <a href="" class="white-btn">Kokeile nyt</a>					  
+				  </div>
+			   </div>
+			   <div class="col-md-5">
+			   <h3 class="d-block d-md-none">Kuinka se toimii?</h3>
+			    <figure><img src="images/Final-Video.gif"></figure>
+			   </div>
+			</div>
+	    </div>
+	</section>		
+	  <footer>
+	   <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="detail-list">
+                     <p>Seuraa meitä somessa:</p>
+                     <ul class="footer-list">
+                        <li>
+                           <a href="">
+                              <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path d="M22 11C22 4.92486 17.0751 0 11 0C4.92486 0 0 4.92486 0 11C0 16.4904 4.02256 21.0412 9.28125 21.8664V14.1797H6.48828V11H9.28125V8.57656C9.28125 5.81969 10.9235 4.29688 13.4361 4.29688C14.6396 4.29688 15.8984 4.51172 15.8984 4.51172V7.21875H14.5114C13.1449 7.21875 12.7188 8.06665 12.7188 8.93655V11H15.7695L15.2818 14.1797H12.7188V21.8664C17.9775 21.0412 22 16.4904 22 11Z" fill="white"/>
+                              </svg>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="">
+                              <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0C17.0711 0 22 4.92895 22 11C22 17.0711 17.0711 22 11 22C4.92895 22 0 17.0711 0 11C0 4.92895 4.92895 0 11 0ZM9.0625 16.8505C13.9301 16.8505 16.5917 12.8171 16.5917 9.32143C16.5917 9.20618 16.5917 9.09094 16.5862 8.98116C17.102 8.60802 17.552 8.14155 17.9087 7.60925C17.4368 7.81778 16.9264 7.96048 16.3886 8.02631C16.9374 7.69704 17.3544 7.1812 17.552 6.56111C17.0416 6.86293 16.4764 7.08241 15.8727 7.20315C15.3898 6.68731 14.7039 6.36904 13.9411 6.36904C12.4813 6.36904 11.296 7.55438 11.296 9.01411C11.296 9.22264 11.318 9.42567 11.3673 9.61774C9.16678 9.508 7.21862 8.45436 5.91259 6.85193C5.68756 7.24157 5.55586 7.69703 5.55586 8.17996C5.55586 9.0964 6.02233 9.90859 6.73574 10.3805C6.30218 10.3696 5.89609 10.2488 5.5394 10.0513V10.0842C5.5394 11.3683 6.45034 12.4329 7.66313 12.6799C7.44365 12.7402 7.20766 12.7732 6.96622 12.7732C6.79607 12.7732 6.63145 12.7567 6.46684 12.7238C6.80157 13.7774 7.77838 14.5402 8.9363 14.5622C8.03082 15.2701 6.88939 15.6927 5.64914 15.6927C5.43512 15.6927 5.22659 15.6817 5.01806 15.6542C6.17598 16.4115 7.56985 16.8505 9.0625 16.8505Z" fill="white"/>
+                              </svg>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="">
+                              <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0C17.0711 0 22 4.92895 22 11C22 17.0711 17.0711 22 11 22C4.92895 22 0 17.0711 0 11C0 4.92895 4.92895 0 11 0ZM11 4.125C9.13288 4.125 8.89874 4.13291 8.16544 4.16638C7.43368 4.19977 6.93391 4.316 6.49657 4.48594C6.0445 4.66164 5.66109 4.89672 5.27888 5.27893C4.89668 5.66113 4.66159 6.04454 4.48589 6.49662C4.31595 6.93391 4.19977 7.43368 4.16634 8.16544C4.13291 8.89874 4.125 9.13288 4.125 11C4.125 12.8671 4.13291 13.1013 4.16634 13.8346C4.19977 14.5663 4.31595 15.0661 4.48589 15.5034C4.66159 15.9555 4.89668 16.3389 5.27888 16.7211C5.66109 17.1033 6.0445 17.3384 6.49657 17.5141C6.93391 17.684 7.43368 17.8002 8.16544 17.8336C8.89874 17.8671 9.13288 17.875 11 17.875C12.8671 17.875 13.1013 17.8671 13.8346 17.8336C14.5663 17.8002 15.0661 17.684 15.5034 17.5141C15.9555 17.3384 16.3389 17.1033 16.7211 16.7211C17.1033 16.3389 17.3384 15.9555 17.5141 15.5034C17.684 15.0661 17.8002 14.5663 17.8336 13.8346C17.8671 13.1013 17.875 12.8671 17.875 11C17.875 9.13288 17.8671 8.89874 17.8336 8.16544C17.8002 7.43368 17.684 6.93391 17.5141 6.49662C17.3384 6.04454 17.1033 5.66113 16.7211 5.27893C16.3389 4.89672 15.9555 4.66164 15.5034 4.48594C15.0661 4.316 14.5663 4.19977 13.8346 4.16638C13.1013 4.13291 12.8671 4.125 11 4.125ZM11 5.36375C12.8357 5.36375 13.0531 5.37075 13.7781 5.40384C14.4484 5.43443 14.8124 5.54641 15.0547 5.64055C15.3756 5.76525 15.6046 5.91426 15.8452 6.15484C16.0858 6.39538 16.2348 6.62445 16.3594 6.94534C16.4536 7.1876 16.5656 7.55159 16.5962 8.2219C16.6293 8.94687 16.6363 9.16429 16.6363 11C16.6363 12.8357 16.6293 13.0531 16.5962 13.7781C16.5656 14.4484 16.4536 14.8124 16.3594 15.0547C16.2348 15.3756 16.0858 15.6046 15.8452 15.8452C15.6046 16.0858 15.3756 16.2348 15.0547 16.3594C14.8124 16.4536 14.4484 16.5656 13.7781 16.5962C13.0533 16.6293 12.8358 16.6363 11 16.6363C9.16416 16.6363 8.94678 16.6293 8.2219 16.5962C7.55159 16.5656 7.1876 16.4536 6.94534 16.3594C6.62441 16.2348 6.39538 16.0858 6.1548 15.8452C5.91422 15.6046 5.76525 15.3756 5.64055 15.0547C5.54641 14.8124 5.43439 14.4484 5.40379 13.7781C5.37071 13.0531 5.36375 12.8357 5.36375 11C5.36375 9.16429 5.37071 8.94687 5.40379 8.2219C5.43439 7.55159 5.54641 7.1876 5.64055 6.94534C5.76525 6.62445 5.91422 6.39538 6.1548 6.15484C6.39538 5.91426 6.62441 5.76525 6.94534 5.64055C7.1876 5.54641 7.55159 5.43443 8.2219 5.40384C8.94687 5.37075 9.16429 5.36375 11 5.36375ZM11 7.4696C9.05021 7.4696 7.4696 9.05021 7.4696 11C7.4696 12.9498 9.05021 14.5304 11 14.5304C12.9498 14.5304 14.5304 12.9498 14.5304 11C14.5304 9.05021 12.9498 7.4696 11 7.4696V7.4696ZM11 13.2917C9.73436 13.2917 8.70835 12.2656 8.70835 11C8.70835 9.73436 9.73436 8.70835 11 8.70835C12.2656 8.70835 13.2917 9.73436 13.2917 11C13.2917 12.2656 12.2656 13.2917 11 13.2917V13.2917ZM15.4949 7.33012C15.4949 7.78577 15.1255 8.15508 14.6699 8.15508C14.2143 8.15508 13.8449 7.78577 13.8449 7.33012C13.8449 6.87448 14.2143 6.50512 14.6699 6.50512C15.1255 6.50512 15.4949 6.87448 15.4949 7.33012Z" fill="white"/>
+                              </svg>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="">
+                              <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0C17.0711 0 22 4.92895 22 11C22 17.0711 17.0711 22 11 22C4.92895 22 0 17.0711 0 11C0 4.92895 4.92895 0 11 0ZM7.56091 17.182V8.5916H4.70504V17.182H7.56091ZM17.8571 17.182V12.2558C17.8571 9.61709 16.4483 8.38961 14.5696 8.38961C13.0547 8.38961 12.3762 9.22273 11.9962 9.80787V8.5916H9.14109C9.17894 9.39757 9.14109 17.182 9.14109 17.182H11.9962V12.3845C11.9962 12.1277 12.0147 11.871 12.0903 11.6875C12.2964 11.1747 12.7665 10.6434 13.5554 10.6434C14.5881 10.6434 15.0018 11.4314 15.0018 12.5858V17.182H17.8571V17.182ZM6.15227 4.44941C5.17516 4.44941 4.53677 5.0918 4.53677 5.93377C4.53677 6.758 5.15573 7.41808 6.11445 7.41808H6.13289C7.12869 7.41808 7.74851 6.758 7.74851 5.93377C7.73003 5.0918 7.12873 4.44941 6.15227 4.44941V4.44941Z" fill="white"/>
+                              </svg>
+                           </a>
+                        </li>
+                        <li>
+                           <a href="">
+                              <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M11 0C17.0711 0 22 4.92895 22 11C22 17.0711 17.0711 22 11 22C4.92895 22 0 17.0711 0 11C0 4.92895 4.92895 0 11 0ZM17.5878 7.69046C17.4296 7.09882 16.9638 6.633 16.3722 6.47488C15.2998 6.1875 11 6.1875 11 6.1875C11 6.1875 6.70025 6.1875 5.62783 6.47488C5.03637 6.633 4.57037 7.09882 4.41225 7.69046C4.125 8.76275 4.125 11.0001 4.125 11.0001C4.125 11.0001 4.125 13.2373 4.41225 14.3095C4.57037 14.9012 5.03637 15.3672 5.62783 15.5253C6.70025 15.8125 11 15.8125 11 15.8125C11 15.8125 15.2998 15.8125 16.3722 15.5253C16.9638 15.3672 17.4296 14.9012 17.5878 14.3095C17.875 13.2373 17.875 11.0001 17.875 11.0001C17.875 11.0001 17.875 8.76275 17.5878 7.69046ZM9.62496 13.0626V8.93754L13.1972 11.0001L9.62496 13.0626V13.0626Z" fill="white"/>
+                              </svg>
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+                  <p class="footer-text">© 2022 FAiBR</p>
+               </div>
+            </div>
+         </div>
+      </footer>
+<!-- basic modal -->
+<div class="modal fade registermodel" id="RegisterModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+      <div class="new">
+	    <h4>Rekisteröidy täysin anonyymiin palveluumme alta ja olet heti yritysten tavoitettavissa.</h4>
+			  <form  class="job-prefrence">
+			     <label class="form-label">Osaajakategoria (Valitse yksi)</label>
+			    <ul class="ocupation-list">
+						<li>
+						 <div class="form-group">
+						  <input type="checkbox" id="occupation-one">
+						  <label for="occupation-one">Lähihoitaja</label>
+						 </div>
+						</li>
+						<li><div class="form-group">
+						  <input type="checkbox" id="occupation-two">
+						  <label for="occupation-two">Ensihoitaja</label>
+						</div>
+						</li>
+						<li><div class="form-group">
+						  <input type="checkbox" id="occupation-three">
+						  <label for="occupation-three">Sairaanhoitaja</label>
+						</div>
+						</li>
+						<li><div class="form-group">
+						  <input type="checkbox" id="occupation-four">
+						  <label for="occupation-four">Terveydenhoitaja</label>
+						</div>
+						</li>
+						<li>
+						<div class="form-group">
+						  <input type="checkbox" id="occupation-five">
+						  <label for="occupation-five">Lähihoitaja</label>
+						</div>
+						</li>
+						<li>
+						<div class="form-group">
+						  <input type="checkbox" id="occupation-six">
+						  <label for="occupation-six">Ensihoitaja</label>
+						</div>
+						</li>
+						<li>
+						<div class="form-group">
+						  <input type="checkbox" id="occupation-seven">
+						  <label for="occupation-seven">Lähihoitaja</label>
+						</div>
+						</li>
+						<li>
+						<div class="form-group">
+						  <input type="checkbox" id="occupation-eight">
+						  <label for="occupation-eight">Terveydenhoitaja</label>
+						</div>
+						</li>
+				</ul>
+				<div class="form-group">
+				 <label class="form-label">Työkokemustaso</label>
+				 <select class="job-experience">
+				    <option>Valitse yksi</option>
+				    <option>5 Year</option> 
+					<option>2 Year</option> 
+					<option>3 Year</option> 
+					<option>4 Year</option> 
+				 </select>
+
+				</div>
+			   <div class="form-group">
+				 <label class="form-label">Työpaikan toivottu sijainti (Voit valita useita)</label>
+				 <select id="choices-multiple-remove-button" placeholder="Esim. Helsinki" multiple>
+					<option value="India">India</option>
+					<option value="USA">USA</option>
+					<option value="Canada">Canada</option>
+					<option value="India">India</option>
+					<option value="USA">USA</option>
+					<option value="south-africa">South Africa</option>
+					<option value="South-africa">South Africa</option>
+					<option value="Canada">Canada</option>
+					<option value="India">India</option>
+					<option value="USA">USA</option>
+					<option value="India">India</option>
+					<option value="USA">USA</option>
+					<option value="south-africa">South Africa</option>
+                 </select>
+
+				</div>
+				
+       <div class="form-group has-feedback">
+         <label class="control-label form-label" for="email">Sähköposti (Käytetään vain kirjautumiseen. Ei näytetä palvelussa.)</label>
+         <input type="text" class="form-control field-style" name="email" id="email" placeholder="">
+		 <span class="form-control-feedback fa fa-check" aria-hidden="true"></span>
+       </div>
+	    <div class="form-group ">
+		<label class="control-label form-label" for="email">Salasana</label>
+                <input id="password-field" type="password" class="field-style" name="password" value="">
+              <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span>
+       </div>
+	   
+	       <button type="button" class="btn-sign">Rekisteröidy</button>
+   <div class="form-group ">
+               <p>Rekisteröitymällä hyväksyn palvelun    <a href="">käyttö- ja</a> <a href="">sopimusehdot.</a> </p>
+       </div>
+   
+			  </form>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+	
+	<!-- /.banner-gif -->
+	<script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.5.1.min.dc5e7f18c8.js?site=5e4aa0b13e4de59727d00bda" type="text/javascript" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	 <script src="https://cdn.jsdelivr.net/gh/bbbootstrap/libraries@main/choices.min.js"></script>
+      <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
+	<script src="js/register-model.js"></script>
+	<script>
+	  $(".navbar-toggler").click(function() {
+     $("body").toggleClass('body-expanded');
+     removeClass = false;
+     });
+	</script>
+</body>
+
+</html>

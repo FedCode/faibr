@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- Bootstrap CSS -->
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+	   <link href="css/register-model.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/bbbootstrap/libraries@main/choices.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,300;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">       <title>Chat Template</title>
+	    <title>Regsiter Model</title>
+
+   </head>
+   <body>
+
+
+    <div class="container">
+  
+	  <div class="row mb-4">
+		<div class="col text-center">
+		<a href="#" class="btn btn-lg btn-success" data-toggle="modal" data-target="#RegisterModal">Click to open Modal</a>
+		</div>
+	  </div>
+  
+  
+    </div>
+
+<!-- basic modal -->
+<div class="modal fade registermodel" id="RegisterModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span><img src="images/crossicon.svg" alt=""></span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <div class="new">
+	      <h3>Rekisteröidy vain 10 sekunnissa</h3>
+		  <p>Se on ilmaista ja täysin anonyymia</p>
+		  <div class="register-model d-none d-md-block">
+			     <label class="form-label">Osaajakategoria (Valitse yksi):</label>
+			        <ul class="ocupation-list">
+
+						<li>
+						 <div class="form-group">
+						  <input type="radio" id="occupation-one" name="radio">
+						  <label for="occupation-one">Lähihoitaja</label>
+						 </div>
+						</li>
+						<li><div class="form-group">
+						  <input type="radio" id="occupation-two" name="radio">
+						  <label for="occupation-two">Sairaanhoitaja</label>
+						</div>
+						</li>
+						<li><div class="form-group">
+						  <input type="radio" id="occupation-three" name="radio">
+						  <label for="occupation-three">Terveydenhoitaja</label>
+						</div>
+						</li>
+						<li><div class="form-group">
+						  <input type="radio" id="occupation-four" name="radio">
+						  <label for="occupation-four">Kätilö</label>
+						</div>
+						</li>
+						<li>
+						<div class="form-group">
+						  <input type="radio" id="occupation-five" name="radio">
+						  <label for="occupation-five">Ensihoitaja</label>
+						</div>
+						</li>
+						<li>
+						<div class="form-group">
+						  <input type="radio" id="occupation-six" name="radio">
+						  <label for="occupation-six">Hammashoitaja</label>
+						</div>
+						</li>
+						<li>
+						<div class="form-group">
+						  <input type="radio" id="occupation-seven" name="radio">
+						  <label for="occupation-seven">Suuhygienisti</label>
+						</div>
+						</li>
+						<li>
+						<div class="form-group">
+						  <input type="radio" id="occupation-eight" name="radio">
+						  <label for="occupation-eight">Röntgenhoitaja</label>
+						</div>
+						</li>
+						<li>
+						<div class="form-group">
+						  <input type="radio" id="occupation-nine" name="radio">
+						  <label for="occupation-nine">Bioanalyytikko</label>
+						</div>
+						</li>
+				
+				</ul>
+               </div>
+			  <form  class="job-prefrence">
+					<div class="form-group">
+					  <label>Osaajakategoria (Valitse yksi)</label>
+					  <select class="select-model">
+						 <option>Valitse yksi</option>
+						 <option>Valitse yksi</option>
+						 <option>Valitse yksi</option>
+						 <option>Valitse yksi</option>
+					  </select>
+				    </div>
+					<div class="form-group d-md-none d-block">
+					  <label>Työkokemustaso (Valitse yksi)</label>
+					  <select class="select-model">
+						 <option>Valitse yksi</option>
+						 <option>Valitse yksi</option>
+						 <option>Valitse yksi</option>
+						 <option>Valitse yksi</option>
+					  </select>
+				    </div>
+				
+			    
+			    
+				
+			   <div class="form-group">
+				 <label class="form-label">Työpaikan toivottu sijainti (Voit valita useita)</label>
+				 <select class="first_filter" id="choices-multiple-remove-button" placeholder="Esim. Helsinki" multiple>
+					<option value="India">India</option>
+					<option value="USA">USA</option>
+					<option value="Canada">Canada</option>
+					<option value="India">India</option>
+					<option value="USA">USA</option>
+					<option value="south-africa">South Africa</option>
+					<option value="South-africa">South Africa</option>
+					<option value="Canada">Canada</option>
+					<option value="India">India</option>
+					<option value="USA">USA</option>
+					<option value="India">India</option>
+					<option value="USA">USA</option>
+					<option value="south-africa">South Africa</option>
+                 </select>
+
+				</div>
+				   
+
+       <div class="form-group form-cards">
+         <label class="control-label form-label" for="email">Sähköposti</label>
+		  <input type="email" placeholder="maija@gmail.com">
+          <span class="form-control-feedback fa fa-check" aria-hidden="true"></span>
+       </div>
+	    <div class="form-group ">
+		  <label class="control-label form-label" for="email">Salasana</label>
+         <input id="password-field" type="password" class="field-style" name="password" value="">
+              <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password"></span> 	
+			     
+       </div>
+	   
+	       <button type="button" class="btn-sign">Rekisteröidy</button>
+   <div class="form-group ">
+               <p>Klikkaamalla "Rekisteröidy" hyväksyt palvelun käyttöehdot ja rekisteriselosteen.<!-- <a href="">Term of us</a> and <a href="">Privacy policy.</a> --> </p>
+       </div>
+   
+			  </form>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+      <!--  <script src="js/bootstrap.min.js"></script> -->
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/gh/bbbootstrap/libraries@main/choices.min.js"></script>
+      <script src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.min.js"></script>
+	  <script src="js/function.js"></script>
+	  <script src="js/register-model.js"></script>
+
+   </body>
+   
+</html>
+
